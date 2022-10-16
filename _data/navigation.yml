@@ -1,0 +1,28 @@
+# main links
+main:
+  - title: "Home"
+    url: https://yunhobb.github.io/
+
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/yunhobb
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "Java"
+    url: /categories/java/
+  - title: "Spring"
+    url: /categories/Spring/
+  - title: "Go"
+    url: /categories/go/
+  - title: "Categories4"
+    url: /categories/categories4/

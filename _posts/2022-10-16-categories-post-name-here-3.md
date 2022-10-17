@@ -32,8 +32,12 @@ func main() {
 	fmt.Println("hello world")
 }
 ```
+#
 
-
+```
+import 'fmt'
+```
+println을 쓰기 위해 모듈을 불러왔다.  
 
 #### 실행 하는법 
 ```

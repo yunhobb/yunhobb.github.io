@@ -1,5 +1,5 @@
 ---
-title: "[포스팅 예시] GO: 반복문"
+title: "GO: 반복문"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:

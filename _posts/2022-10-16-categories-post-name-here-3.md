@@ -7,7 +7,7 @@ categories:
 tags:
   - [go]
 
-permalink: /go//
+permalink: /go/helloworld/
 
 toc: true
 toc_sticky: true

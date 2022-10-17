@@ -7,7 +7,7 @@ categories:
 tags:
   - [go]
 
-permalink: /go//
+permalink: /go/interface_struct/
 
 toc: true
 toc_sticky: true

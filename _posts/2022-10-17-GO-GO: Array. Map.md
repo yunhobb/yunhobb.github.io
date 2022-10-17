@@ -7,7 +7,7 @@ categories:
 tags:
   - [go]
 
-permalink: /go//
+permalink: /go/array_maps/
 
 toc: true
 toc_sticky: true

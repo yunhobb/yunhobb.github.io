@@ -1,6 +1,6 @@
 ---
-title: "GO: Panic, Recover"
-excerpt: "Panic과 Recover"
+title: "GO: Gin Web Framework"
+excerpt: "Gin"
 
 categories:
   - Go

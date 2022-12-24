@@ -5,4 +5,4 @@ layout: single
 comments: false
 ---
 
-시작하는 사람입니다.
+시작해요 ~ 반가워요 ~ 

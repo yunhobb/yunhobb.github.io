@@ -21,14 +21,17 @@ categories:
   - title: "Java"
     url: /categories/java/
   - title: "Spring"
-    url: /categories/Spring/
+    url: /categories/spring/
   - title: "Go"
     url: /categories/go/
-  - title: "Categories1"
-    url: /categories/categories1/
-  - title: "Categories2"
-    url: /categories/categories2/
-  - title: "Categories3"
-    url: /categories/categories3/
-  - title: "Categories4"
-    url: /categories/categories4/
+    - title: "Project"
+    url: /categories/project/
+
+  # - title: "Categories1"
+  #   url: /categories/categories1/
+  # - title: "Categories2"
+  #   url: /categories/categories2/
+  # - title: "Categories3"
+  #   url: /categories/categories3/
+  # - title: "Categories4"
+  #   url: /categories/categories4/

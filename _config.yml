@@ -284,3 +284,4 @@ defaults:
         nav: "categories"
 
 future: true
+timezone: Asia/Seoul

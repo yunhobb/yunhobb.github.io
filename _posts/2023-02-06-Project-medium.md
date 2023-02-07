@@ -1,7 +1,7 @@
 ---
 title: "2023 겨울 부트캠프 medium"
 excerpt: "프로젝트의 전번적인 내용의 블로그 글입니다."
-
+published: true
 categories:
   - Project
 tags:

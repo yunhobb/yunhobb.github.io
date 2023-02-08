@@ -1,3 +1,15 @@
+## 🦥 `Minimal Mistakes theme customized by choiiis`
+
+📎 **블로그 바로 가기**
+[`https://choiiis.github.io/`](https://choiiis.github.io/)
+
+---
+
+fork 해서 사용하시기 편하게 변경해서 새로 올려봅니다.  
+편하게 사용하시고, fork 하실 때 `star` 하나만 눌러주세용 :)
+
+fork 후 설정이 필요한 사항들은 아래 내용을 참고하세요!
+
 ### ▪ 블로그 기본 정보 세팅
 
 [_config.yml]
@@ -116,6 +128,38 @@ categories:
     url: /categories/categories3/
   - title: "Categories4"
     url: /categories/categories4/
+```
+
+2022.09.24 Update : 하위 카테고리 포함 메뉴 (categories-ver2 branch)  
+ver2.0 카테고리 형태 문의가 있어서 categories-ver2 브랜치에 업데이트 했습니다.  
+예시는 페이지 하단 '개발 기록' 부분에서 확인하실 수 있어요!
+
+참고) `_data/navigation.yml`만 아래와 같이 변경해주셔도 됩니다.
+
+```yml
+categories:
+  - title: "Title1"
+    children:
+      - title: "Categories1"
+        url: /categories/categories1/
+      - title: "Categories2"
+        url: /categories/categories2/
+      - title: "Categories3"
+        url: /categories/categories3/
+      - title: "Categories4"
+        url: /categories/categories4/
+
+  - title: "Title2"
+    children:
+      - title: "Categories5"
+        url: /categories/categories5/
+      - title: "Categories6"
+        url: /categories/categories6/
+
+  - title: "Title3"
+    children:
+      - title: "Categories7"
+        url: /categories/categories7/
 ```
 
 ### ▪ 포스트 작성
@@ -282,3 +326,23 @@ comments: false
 
 본인 소개 여기에 입력
 ```
+
+_문의사항 또는 수정 요청은 블로그에 댓글 남겨주시거나 이메일로 연락주세요!_
+
+---
+
+### 개발 기록
+
+[VER1.0]
+![choiiis github blog main](/assets/images/posts_img/readme/blog-main-ver1.png)
+
+[VER2.0]
+![choiiis github blog main](/assets/images/posts_img/readme/blog-main-ver2.png)
+
+- logo 변경
+- 카테고리 디자인 변경
+- font family, size 변경
+- 메인 컬러 변경
+
+[VER2.1]
+![choiiis github blog main](/assets/images/posts_img/readme/ver2_1_main.png)

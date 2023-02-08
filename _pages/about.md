@@ -1,8 +1,8 @@
 ---
-title: "Hi all! I'm yunho👋🏻"
+title: "Hi all! I'm OOOOOO👋🏻"
 permalink: /about/
 layout: single
 comments: false
 ---
 
-시작해요 ~ 반가워요 ~ 
+본인 소개 여기에 입력

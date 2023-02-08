@@ -24,14 +24,7 @@ categories:
     url: /categories/spring/
   - title: "Go"
     url: /categories/go/
-    - title: "Project"
+  - title: "Algorithm"
+    url: /categories/algorithm/
+  - title: "Project"
     url: /categories/project/
-
-  # - title: "Categories1"
-  #   url: /categories/categories1/
-  # - title: "Categories2"
-  #   url: /categories/categories2/
-  # - title: "Categories3"
-  #   url: /categories/categories3/
-  # - title: "Categories4"
-  #   url: /categories/categories4/

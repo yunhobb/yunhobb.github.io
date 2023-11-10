@@ -62,6 +62,10 @@ Lottos에서는 맴버 변수로 List<Lotto>로 선언을 하였고 WinningLotto
 
 regex검증을 Enum으로 선언한 이유는 1주차 코드리뷰에 있었다. Pattern.match에서 많은 성능 비용이 발생한다고 하였다. 그래서 2주차 코드에서는 private static final로 상수로 처리해서 사용을 하였다. 하지만 enum을 사용하면 메서드에 static이 붙으므로 검증 로직을 확실하게 분리 할 수 있고 역할과 책임을 확실하게 나눌 수 있는 방법이라고 생각을 했다. 
 
+### `EnumMap`을 활용하다.
+Enum class인 LottoResultRule을 활용하기 위해 LottoResultRule을 EnumMap으로 선언해 일급컬랙션으로 감싼 WinningStatistic 클래스를 만들었다. 성능이 좋다라는 장점이 있지만 순서를 기존의 Map과는 다른게 순서를 기억한다라는 장점을 활용하기 위해서 사용을 하였다. 로또들의 각 등수별 숫자를 EnumMap으로 저장한 후 그 값을 추후에 순서대로 불러와 출력하는 역할을 하는데 활용을 하였다.
+
+
 ### 사용자가 잘못된 값을 입력할 경우 에러를 발생시키고 다시 입력받는다.
 
 InputView를 Controller에 주입시켜 입력값을 받는 부분을 while(true)와 try-catch로 감싸 예외를 던지면 해당 exception을 감지해 오류를 출력하고 다시 받도록 하였다. 하지만 controller로직에 inputView 메서드마다 while, try-catch가 붙으니 Controller의 코드가 가독성이 떨어졌다. 그러던 중 `Supplier<T>` 라는 interface를 알게되었고 메서드의 매개변수를 Supplier<T> 사용하여 while문과 try-catch문을 묶어 한곳에서 처리를 하니 가독성이 올라갔다. 
